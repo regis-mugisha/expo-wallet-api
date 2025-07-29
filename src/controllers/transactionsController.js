@@ -69,7 +69,7 @@ export const getTransactionsSummaryByUserId = async (req, res) => {
     res.status(200).json({
       balance: balanceResult[0].balance,
       income: incomeResult[0].income,
-      expense: expenseResult[0].expense,
+      expenses: expenseResult[0].expense,
     });
   } catch (error) {
     console.error("Error retrieving transaction summary:", error);
