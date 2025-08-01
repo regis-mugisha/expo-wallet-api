@@ -34,7 +34,7 @@ A robust REST API for managing personal wallet transactions with rate limiting, 
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/regis-mugisha/expo-wallet-api.git
    cd backend
    ```
 
@@ -67,14 +67,14 @@ Create a `.env` file in the root directory with the following variables:
 
 ```env
 # Database Configuration
-DATABASE_URL=postgresql://username:password@host:port/database
+DATABASE_URL=postgresql://username:password@host:port/database(from neon console)
 
 # Server Configuration
 PORT=5001
 NODE_ENV=development
 
 # API Configuration
-API_URL=https://your-api-domain.com/api/health
+API_URL=https://expo-wallet-api.onrender.com/api/health
 
 # Upstash Redis (for rate limiting)
 UPSTASH_REDIS_REST_URL=your-redis-url
