@@ -101,7 +101,7 @@ The API uses a PostgreSQL database with the following schema:
 ### Base URL
 
 ```
-http://localhost:5001/api
+http://localhost:5001
 ```
 
 ### Health Check
