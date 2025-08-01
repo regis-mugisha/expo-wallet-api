@@ -35,7 +35,7 @@ A robust REST API for managing personal wallet transactions with rate limiting, 
 
    ```bash
    git clone https://github.com/regis-mugisha/expo-wallet-api.git
-   cd backend
+   cd expo-wallet-api
    ```
 
 2. **Install dependencies**
